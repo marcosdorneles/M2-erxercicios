@@ -1,0 +1,15 @@
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/bin/Debug/net7.0/M2S01
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/bin/Debug/net7.0/M2S01.deps.json
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/bin/Debug/net7.0/M2S01.runtimeconfig.json
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/bin/Debug/net7.0/M2S01.dll
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/bin/Debug/net7.0/M2S01.pdb
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.csproj.AssemblyReference.cache
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.AssemblyInfoInputs.cache
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.AssemblyInfo.cs
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.csproj.CoreCompileInputs.cache
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.dll
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/refint/M2S01.dll
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.pdb
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/M2S01.genruntimeconfig.cache
+/Users/marcosguilhermedornelesstaub/Documents/M2-erxercicios/M2S01/obj/Debug/net7.0/ref/M2S01.dll
