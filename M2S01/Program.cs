@@ -21,10 +21,25 @@
                 
 
             case 2:
-                Console.WriteLine("2");
+                int num;
+                Console.WriteLine("Digite um número e verifique se ele é par ou ímpar!");
+                num = int.Parse(Console.ReadLine());
+                if(num % 2 ==0 ){
+                    Console.WriteLine("O número é par!");
+                } else{
+                    Console.WriteLine("O número é ímpar!");
+                }
                 break;
 
+            case 3:
+                string nome;
+                int idade;
+                Console.WriteLine("Olá!, Digite seu nome e a sua idade!");
+                nome = Console.ReadLine();
+                idade = int.Parse(Console.ReadLine());
 
+                Console.WriteLine($"nome do paciente: {nome}, idade: {idade}");
+                break;
             default:
                 Console.WriteLine("Selecione uma opÇão");
                 break;
