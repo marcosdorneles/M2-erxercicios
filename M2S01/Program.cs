@@ -40,6 +40,25 @@
 
                 Console.WriteLine($"nome do paciente: {nome}, idade: {idade}");
                 break;
+
+            case 4:
+                string marca;
+                string modelo;
+                int km;
+                Console.WriteLine("Olá!, digite a marca do carro");
+                marca = Console.ReadLine();
+                Console.WriteLine("Agora informe o modelo do veículo");
+                modelo = Console.ReadLine();
+                Console.WriteLine("Por último, informe a kilometragem do veículo");
+                km = int.Parse(Console.ReadLine());
+                if(km > 10000){
+                    Console.WriteLine($"O veículo de marca {marca}, modelo: {modelo} precisa realizar revisão");
+                }else{
+                    Console.WriteLine("O veículo ainda não precisa de revisão!");
+                }
+                break;
+
+
             default:
                 Console.WriteLine("Selecione uma opÇão");
                 break;
