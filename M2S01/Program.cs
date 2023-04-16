@@ -103,8 +103,33 @@
                 break;
 
             case 8:
-                 
-            break;
+
+                int[] numerosInput = new int[5];
+
+                Console.WriteLine("Digite cinco números inteiros:");
+
+                for (int i = 0; i < numerosInput.Length; i++)
+                {
+                    Console.Write("Número {0}: ", i + 1);
+                    numerosInput[i] = int.Parse(Console.ReadLine());
+                }
+
+                int maior = numerosInput[0];
+
+                for (int i = 1; i < numerosInput.Length; i++)
+                {
+                    if (numerosInput[i] > maior)
+                    {
+                        maior = numerosInput[i];
+                    }
+                }
+
+                Console.WriteLine($"O maior número digitado foi: {0}", maior);
+                break;
+
+            case 9: 
+
+
             default:
                 Console.WriteLine("Selecione uma opÇão");
                 break;
