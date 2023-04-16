@@ -127,13 +127,95 @@
                 Console.WriteLine($"O maior número digitado foi: {0}", maior);
                 break;
 
-            case 9: 
+            case 9:
+                int quantidade = int.Parse(Console.ReadLine());
+
+                double[] numIn = new double[quantidade];
+                for (int i = 0; i < quantidade; i++)
+                {
+                    Console.Write($"Digite o {i + 1}º número: ");
+                    numIn[i] = double.Parse(Console.ReadLine());
+                }
+
+                double sum = 0;
+                foreach (double num5 in numIn)
+                {
+                    sum += num5;
+                }
+
+                double media = sum / quantidade;
+
+                Console.WriteLine($"A média aritmética é: {media}");
+                break;
+
+            case 10:
+                Console.WriteLine("Bem-vindo(a) à calculadora simples!");
+
+                while (true)
+                {
+                    Console.WriteLine("\nEscolha uma operação:");
+                    Console.WriteLine("1. Soma");
+                    Console.WriteLine("2. Subtração");
+                    Console.WriteLine("3. Multiplicação");
+                    Console.WriteLine("4. Divisão");
+                    Console.WriteLine("0. Sair");
+
+                    Console.Write("\nDigite o número correspondente à operação desejada: ");
+                    int opcao = int.Parse(Console.ReadLine());
+
+                    if (opcao == 0)
+                    {
+                        Console.WriteLine("\nObrigado por utilizar a calculadora simples!");
+                        break;
+                    }
+
+                    Console.Write("Digite o primeiro número: ");
+                    double calcNum1 = double.Parse(Console.ReadLine());
+
+                    Console.Write("Digite o segundo número: ");
+                    double calcNum2 = double.Parse(Console.ReadLine());
+
+                    double resultado;
+
+                    switch (opcao)
+                    {
+                        case 1:
+                            resultado = calcNum1 + calcNum2;
+                            Console.WriteLine($"O resultado da soma entre {calcNum1} e {calcNum2} é: {resultado}");
+                            break;
+                        case 2:
+                            resultado = calcNum1 - calcNum2;
+                            Console.WriteLine($"O resultado da subtração entre {calcNum1} e {calcNum2} é: {resultado}");
+                            break;
+                        case 3:
+                            resultado = calcNum1 * calcNum2;
+                            Console.WriteLine($"O resultado da multiplicação entre {calcNum1} e {calcNum2} é: {resultado}");
+                            break;
+                        case 4:
+                            if (calcNum2 == 0)
+                            {
+                                Console.WriteLine("Não é possível dividir por zero!");
+                            }
+                            else
+                            {
+                                resultado = calcNum1 / calcNum2;
+                                Console.WriteLine($"O resultado da divisão entre {calcNum1} e {calcNum2} é: {resultado}");
+                            }
+                            break;
+                        default:
+                            Console.WriteLine("Opção inválida! Por favor, escolha uma opção válida.");
+
+                            break;
 
 
+                    }
+                }
+
+                break;
             default:
                 Console.WriteLine("Selecione uma opÇão");
                 break;
 
         }
+        }
     }
-}
