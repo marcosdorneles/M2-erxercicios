@@ -78,7 +78,16 @@
                     Console.WriteLine(numeros[i]);
                 }
                 break;
+            
+            case 6: 
+                string frase = "A linguagem de programação C# é muito poderosa";
+                List<string> palavras = new List<string>(frase.Split(' '));
+                Console.WriteLine(palavras[7]);
+                break;
 
+            case 7 :
+                
+            break;
             default:
                 Console.WriteLine("Selecione uma opÇão");
                 break;
