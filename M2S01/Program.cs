@@ -78,15 +78,32 @@
                     Console.WriteLine(numeros[i]);
                 }
                 break;
-            
-            case 6: 
+
+            case 6:
                 string frase = "A linguagem de programação C# é muito poderosa";
                 List<string> palavras = new List<string>(frase.Split(' '));
                 Console.WriteLine(palavras[7]);
                 break;
 
-            case 7 :
-                
+            case 7:
+                int numero;
+                do
+                {
+                    Console.Write("Digite um número inteiro positivo: ");
+                    if (!int.TryParse(Console.ReadLine(), out numero) || numero <= 0)
+                    {
+                        Console.WriteLine("Número inválido. Tente novamente.");
+                    }
+                } while (numero <= 0);
+
+                for (int i = 0; i < numero; i += 2)
+                {
+                    Console.WriteLine(i);
+                }
+                break;
+
+            case 8:
+                 
             break;
             default:
                 Console.WriteLine("Selecione uma opÇão");
